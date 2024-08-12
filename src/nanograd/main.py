@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+#%%
 import sys
 import os
 from pathlib import Path
@@ -14,3 +14,5 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader, TensorDataset
 from torchvision import datasets, transforms
 
+
+# %%
