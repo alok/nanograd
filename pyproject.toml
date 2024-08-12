@@ -3,7 +3,7 @@ name = "nanograd"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
-    { name = "Alok Singh", email = "alokbeniwal@gmail.com" }
+    { name = "Alok Singh", email = "alokbeniwal@gmail.com" }, { name = "Elliot Glazer", email = "elliotglazer@gmail.com" }
 ]
 dependencies = []
 readme = "README.md"
