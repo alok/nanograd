@@ -16,6 +16,10 @@ asttokens==2.4.1
     # via stack-data
 comm==0.2.2
     # via ipykernel
+contourpy==1.2.1
+    # via matplotlib
+cycler==0.12.1
+    # via matplotlib
 debugpy==1.8.5
     # via ipykernel
 decorator==5.1.1
@@ -28,8 +32,12 @@ executing==2.0.1
     # via stack-data
 filelock==3.15.4
     # via torch
+fonttools==4.53.1
+    # via matplotlib
 fsspec==2024.6.1
     # via torch
+graphviz==0.20.3
+    # via nanograd
 ipykernel==6.29.5
     # via nanograd
 ipython==8.26.0
@@ -45,10 +53,14 @@ jupyter-client==8.6.2
 jupyter-core==5.7.2
     # via ipykernel
     # via jupyter-client
+kiwisolver==1.4.5
+    # via matplotlib
 markdown-it-py==3.0.0
     # via rich
 markupsafe==2.1.5
     # via jinja2
+matplotlib==3.9.1.post1
+    # via nanograd
 matplotlib-inline==0.1.7
     # via ipykernel
     # via ipython
@@ -61,14 +73,18 @@ nest-asyncio==1.6.0
 networkx==3.3
     # via torch
 numpy==2.0.1
+    # via contourpy
+    # via matplotlib
     # via torchvision
 packaging==24.1
     # via ipykernel
+    # via matplotlib
 parso==0.8.4
     # via jedi
 pexpect==4.9.0
     # via ipython
 pillow==10.4.0
+    # via matplotlib
     # via torchvision
 platformdirs==4.2.2
     # via jupyter-core
@@ -83,8 +99,11 @@ pure-eval==0.2.3
 pygments==2.18.0
     # via ipython
     # via rich
+pyparsing==3.1.2
+    # via matplotlib
 python-dateutil==2.9.0.post0
     # via jupyter-client
+    # via matplotlib
 pyzmq==26.1.0
     # via ipykernel
     # via jupyter-client
