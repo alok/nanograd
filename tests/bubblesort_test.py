@@ -2,7 +2,7 @@ import pytest
 from nanograd.bubblesort import bubble_sort
 
 
-def test_bubble_sort():
+def test_sorter():
     # Test case 1: Unsorted list
     unsorted_list = [64, 34, 25, 12, 22, 11, 90]
     expected_sorted = [11, 12, 22, 25, 34, 64, 90]
