@@ -17,16 +17,13 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-      # TODO: Replace the following with your project's python installation method
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      # TODO: Replace the following with your project's dependency installation method
       - name: Install Project Dependencies
         run: |
           python -m pip install --upgrade pip
-        # TODO: Replace the following with your project setup method
           curl -sSf https://rye-up.com/get | RYE_INSTALL_OPTION="--yes" bash
           echo "$HOME/.rye/shims" >> $GITHUB_PATH
           rye sync
