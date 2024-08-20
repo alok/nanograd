@@ -24,7 +24,7 @@ jobs:
       - name: Install Project Dependencies
         run: |
           python -m pip install --upgrade pip
-          curl -sSf https://rye-up.com/get | RYE_INSTALL_OPTION="--yes" bash
+          curl -sSf https://rye.astral.sh/get | bash
           echo "$HOME/.rye/shims" >> $GITHUB_PATH
           rye sync
           rye add codeflash
