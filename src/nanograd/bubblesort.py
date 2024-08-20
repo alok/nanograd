@@ -7,6 +7,8 @@ def bubble_sort(arr: list[int]) -> list[int]:
     return arr
 
 
+# trivial
+
 # Test the bubble sort function
 test_arr = [64, 34, 25, 12, 22, 11, 90]
 sorted_arr = bubble_sort(test_arr)
